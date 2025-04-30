@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="hacker">
+  <title>تعلم القرصنة الأخلاقية</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #139c6f; /* خلفية زرقاء */
+      color: rgb(5, 13, 121);
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+    }
+
+    .header {
+      background: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 11px 20px;
+      font-size: 24px;
+      font-weight: bold;
+      color: #006;
+    }
+
+    .menu-icon {
+      font-size: 28px;
+      cursor: pointer;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+      padding:6px;
+      text-align: right;
+      
+    }
+
+   
+  
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card img {
+      width: 60px;
+      margin: 90px;
+      height: 60px;
+      margin-bottom: 15px;
+      
+    }
+    button:hover{
+
+      background: rgba(14, 14, 192, 0.274);
+      opacity: 90px;
+    }
+
+ 
+
+    /* Sidebar */
+    .sidebar {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      top: 0;
+      right: 0;
+      background-color: white;
+      overflow-x: hidden;
+      transition: 0.3s;
+      padding-top: 60px;
+      z-index: 1000;
+    }
+
+    .sidebar a {
+      padding: 10px 25px;
+      text-decoration: none;
+      font-size: 18px;
+      display: block;
+      color: #004;
+    }
+
+    .sidebar a:hover {
+      background-color: #eee;
+    }
+
+    .sidebar .closebtn {
+      position: absolute;
+      top: 20px;
+      right: 25px;
+      font-size: 30px;
+      cursor: pointer;
+    }
+
+    .sidebar h3 {
+      padding: 0 25px;
+      color: #007BFF;
+      margin-top: 20px;
+    }
+
+    .icon {
+      margin-left: 10px;
+    }
+
+    @media (max-width: 600px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    a{
+      text-decoration: none;
+      font-size: xx-large;
+      color: #000;
+    }
+    .one{
+
+   text-align: left;     
+   margin-left: 80px; 
+   
+   
+      
+      
+    }
+    button{
+
+      height: 120px;
+      width: 800px;
+      margin: 19px;
+      border-radius: 12px 12px 12px 12px;
+      outline: none;
+      border:  1px solid rgba(0, 0, 255, 0.322);
+      
+    }
+
+ 
+    
+  </style>
+</head>
+<body>
+<form> 
+  <div class="header">
+    <span class="menu-icon" onclick="openSidebar()">&#9776;</span>
+    تعلم القرصنة الأخلاقية
+  </div>
+
+  <br> <br> <br> <br> <br> <br>
+    <div class="one">
+      <ul>
+       <button><a href="cfgcfgcgfg.html"> الهكر</a></button><br>
+       <button><a href="njhujy.html"> الشبكات</a></button><br>
+       <button> <a href="Untitled-1.html"> الويب المظلم</a> </button><br>
+       <button> <a href="fxfdf.html"> لوازم الهاكر الأخلاقي</a> </button><br>
+       <button> <a href="ffffffffffffff.html"> حماية</a> </button><br>
+       <button> <a href="jggg.html"> الفيروسات</a> </button><br>
+
+      </ul>
+    </div>
+  
+    <div class="grid">
+
+  <div id="mySidebar" class="sidebar">
+    <span class="closebtn" onclick="closeSidebar()">&times;</span>
+    <div style="text-align: center;">
+      <img src="https://img.icons8.com/ios-filled/100/hacker.png" alt="هكر">
+      <h2>تعلم القرصنة الأخلاقية</h2>
+    </div>
+
+   
+
+    <h3>تواصل</h3>
+    <a href="https://t.me/+eSjvtjl5sWMzMjlk"><span class="icon">✈</span> مجموعتنا على التليجرام</a>
+    <a href="https://www.instagram.com/saeed_mohamed_1132007?igsh=bXdicGtieXdna3Zh"><span class="icon">📷</span> تابعنا على الانستقرام</a>
+    <a href="https://www.facebook.com/groups/1700960014632974/?ref=share&mibextid=NSMWBT"><span class="icon">👥</span> مجموعة التطبيق على الفيسبوك</a>
+    <a href="https://www.facebook.com/share/1BqTrrGX5k/"><span class="icon">📘</span> صفحتنا على فيسبوك</a> 
+    <a href="123456.html"><span class="icon">🔒</span>سياسه الخصوصيه</a> 
+                     
+    
+  </div>
+
+  <script>
+    function openSidebar() {
+      document.getElementById("mySidebar").style.width = "280px";
+    }
+
+    function closeSidebar() {
+      document.getElementById("mySidebar").style.width = "0";
+    }
+  </script>
+
+</body>
+</html>
